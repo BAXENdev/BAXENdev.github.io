@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Week Three - Hive Tracks Discussion
-date: "[2022-09-20]"
+date: "2022-09-20"
 categories: [weekly blog]
 tags: [blog]
 published: true
