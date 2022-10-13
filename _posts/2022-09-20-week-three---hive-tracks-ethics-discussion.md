@@ -9,7 +9,7 @@ published: true
 
 ## Discussing Hive Tracks
 
-[Hive Tracks](www.google.com) is a business offers an app to beekeepers that allows them to track data related to their hives. It is was created by co-founder James Wilkes, a beekeeper and Appalachian State University professor (and one of my professors) in Boone, NC. This week, he opened the class discussion up to his business and how the ethics of it. The class split into 3 groups and discussed different aspects of the business. 
+[Hive Tracks](https://www.hivetracks.com/) is a business offers an app to beekeepers that allows them to track data related to their hives. It is was created by co-founder James Wilkes, a beekeeper and Appalachian State University professor (and one of my professors) in Boone, NC. This week, he opened the class discussion up to his business and how the ethics of it. The class split into 3 groups and discussed different aspects of the business. 
 
 ## The Hive Tracks Discussion
 Some of the easiest questions were about data. Who owned the data that was put into the app and how was it used? Hive Tracks does not keep identifying information and only aggregates data for analytical use. But an interesting issue that came up was with payment systems. Hive Tracks has used multiple payment systems throughout the years. Some of them have been discontinued from future use, but is still used with legacy customers that were already using those systems. This is an interesting business issue that requires maintained support for legacy payment systems. 
