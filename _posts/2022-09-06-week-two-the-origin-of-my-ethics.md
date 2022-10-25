@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week Two - A Discussion on Ethics
+title: A Discussion on Ethics
 date: '2022-09-06'
 categories: [weekly blog]
 tags: [blog]

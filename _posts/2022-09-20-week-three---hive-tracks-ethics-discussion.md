@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week Three - Hive Tracks Discussion
+title: Hive Tracks Discussion with the Owner
 date: "2022-09-20"
 categories: [weekly blog]
 tags: [blog]
