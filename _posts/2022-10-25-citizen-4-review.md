@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Citizen 4 Review
-date: '2022-10-25'
+date: '2022-10-5'
 categories: [weekly blog]
 tags: [blog]
 published: true
