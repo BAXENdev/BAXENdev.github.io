@@ -23,10 +23,10 @@ timezone: America/New_York
 
 title: Christian Brewer                         # the main title
 
-tagline: CS4100 - Senior Seminer Blog   # it will display as the sub-title
+tagline: Personal Blog    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Use this blog to keep up with my ongoing projects throughout my senior year at AppState
+  A site posting my technical tutorials, blogs, and projects
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://baxendev.github.com'
@@ -45,7 +45,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Christian Brewer
-  email: brewer01business@gmail.com             # change to your email address
+  email: brewercr1@appstate.edu            # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username      # change to your twitter homepage
@@ -77,7 +77,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

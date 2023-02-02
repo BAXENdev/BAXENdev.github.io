@@ -4,7 +4,7 @@ title: Crypto Research
 date: '2022-10-12'
 categories: [weekly blog]
 tags: [blog, technical]
-published: true
+published: false
 ---
 
 # Decentralized Cryptocurrency

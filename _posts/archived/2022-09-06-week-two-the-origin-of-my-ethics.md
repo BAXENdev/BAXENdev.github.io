@@ -4,7 +4,7 @@ title: A Discussion on Ethics
 date: '2022-09-06'
 categories: [weekly blog]
 tags: [blog]
-published: true
+published: false
 ---
 
 # A Discussion On Ethics

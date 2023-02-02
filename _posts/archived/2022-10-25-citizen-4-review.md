@@ -4,7 +4,7 @@ title: Citizen 4 Review
 date: '2022-10-5'
 categories: [weekly blog]
 tags: [blog]
-published: true
+published: false
 ---
 
 # Citizen 4 and Snowden
