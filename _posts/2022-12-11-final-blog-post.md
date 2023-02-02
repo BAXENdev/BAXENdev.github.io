@@ -4,6 +4,7 @@ title: Final Blog Post
 date: '2022-12-11'
 categories: [weekly blog]
 tags: [blog]
+published: false
 ---
 
 # Final Blog Post

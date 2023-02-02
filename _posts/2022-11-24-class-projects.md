@@ -4,6 +4,7 @@ title: Class Presentation
 date: '2022-11-24'
 categories: [weekly blog]
 tags: [blog]
+published: false
 ---
 
 # Class Presentations
