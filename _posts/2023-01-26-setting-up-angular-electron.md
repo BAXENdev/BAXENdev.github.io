@@ -82,6 +82,7 @@ npm i electron --save-dev
 In the package root, open `package.json`. The start of your file will look like this:
 
 ```json
+{
 "name": "feral",
   "version": "0.0.0",
   "scripts": {
@@ -90,12 +91,14 @@ In the package root, open `package.json`. The start of your file will look like 
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
-  },
+  }
+}
 ```
 
 Add `"main": "main.js"` to the root structure and `"electron": "ng build && electron ."` to the script structure. It should now look like this:
 
 ```json
+{
 "name": "feral",
   "version": "0.0.0",
   "main": "main.js",
@@ -106,7 +109,8 @@ Add `"main": "main.js"` to the root structure and `"electron": "ng build && elec
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "electron": "ng build && electron ."
-  },
+  }
+}
 ```
 ### Main.js
 
