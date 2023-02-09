@@ -114,7 +114,7 @@ Add `"main": "main.js"` to the root structure and `"electron": "ng build && elec
 ```
 ### Main.js
 
-In your project root, create a file called `main.js`. Copy this code into your file:
+In your project root, create a file called `main.js`. Copy this code into your file, and then change the path on line 9 to your project name where asked:
 
 ```javascript
 const { app, BrowserWindow } = require('electron')
@@ -125,7 +125,7 @@ const createWindow = () => {
     height: 600
   })
 
-  win.loadFile('dist/feral/index.html')
+  win.loadFile('dist/[project name]/index.html')
 }
 
 app.whenReady().then(() => {
