@@ -8,7 +8,7 @@ published: true
 
 # Why Jekyll?
 
-Jekyll offers an easy setup for a website that can be easily customized. Every page can altered, and you are able to (relatively) easily add new features to your website. Pages are written in Markdown, which is easy to learn (little coding needed for a basic webpage.) But because can use HTML/CSS/JS in the pages (see documentation), any page is capable of complex behaviors and designs.
+Jekyll offers an easy setup for a website that can be easily customized. Every page can altered, and you are able to (relatively) easily add new features to your website. Pages are written in Markdown, which is easy to learn (little coding needed for a basic webpage.) But because you can use HTML/CSS/JS in the pages (see documentation), any page is capable of complex behaviors and designs.
 
 ## Jekyll + Chirpy theme
 
@@ -24,14 +24,23 @@ This site is built with [jekyll-chirpy-theme](https://github.com/cotes2020/jekyl
 ```console
 $ bundle install
 ``` 
-5) As of 08/26/22, this theme did not work at this stage of deployment for me. Some tutorials I have seen did not need to do this step, but I did. If you are hosting this site on github pages, I recommend you run the command below in the terminal:
+5) As of 01/8/23, this theme did not work at this stage of deployment for me. Some tutorials I have seen did not need to do this step, but I did. I was required to add support for 32 & 64 bit linux.
 ```console
 $ bundle lock --add-platform x86_64-linux
 $ bundle
 ```
-6) Commit and push your changes and your site should be up at [gh-username].github.com
+6) If you were required to do step 5, then you likely need to do this step. As of 01/8/23, x86_64-linux support and ruby versions >= ruby 3.2. are not compatible. In the file `./.github/workflows/pages-deploy.ymal`, specify the ruby version to be less then 3.2.<br> For me, this is what it looks like. It is apart of the "Setup Ruby" step.
+```yaml
+42:      - name: Setup Ruby
+43:        uses: ruby/setup-ruby@v1
+44:        with:
+45:          ruby-version: 3.1.3 
+46:          bundler-cache: true
+```
 
-7) Unique changes can be made in the `./_config.yaml` file
+7) Commit and push your changes, and your site should be up at [gh-username].github.com
+
+8) Unique changes can be made in the `./_config.yaml` file
 
 Changes you should make:
 * title

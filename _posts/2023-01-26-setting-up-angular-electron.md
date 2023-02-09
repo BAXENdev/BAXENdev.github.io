@@ -81,7 +81,7 @@ npm i electron --save-dev
 
 In the package root, open `package.json`. The start of your file will look like this:
 
-```
+```json
 "name": "feral",
   "version": "0.0.0",
   "scripts": {
@@ -95,7 +95,7 @@ In the package root, open `package.json`. The start of your file will look like 
 
 Add `"main": "main.js"` to the root structure and `"electron": "ng build && electron ."` to the script structure. It should now look like this:
 
-```
+```json
 "name": "feral",
   "version": "0.0.0",
   "main": "main.js",
@@ -112,7 +112,7 @@ Add `"main": "main.js"` to the root structure and `"electron": "ng build && elec
 
 In your project root, create a file called `main.js`. Copy this code into your file:
 
-```
+```javascript
 const { app, BrowserWindow } = require('electron')
 
 const createWindow = () => {
