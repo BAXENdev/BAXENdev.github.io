@@ -13,7 +13,7 @@ So this is a final blog post for my Senior Seminar class, and I am to offer thre
 
 ### The three things I learned
 1) Online security : you can always be tracked online. Have a friend try to learn as much about starting with just your name to see how much they can find about you.
-2) Snowden Files : Doesn't really matter what country you live, as this applies to many parts of the world. **The NSA is tracking as many people as it can can.** If you are an american citizen, they may track less things about you, but track you none the less. And if you are not an american citizen, the NSA will try to track as much as they can.
+2) Snowden Files : It doesn't matter what country you live in, as this applies to many parts of the world. **The NSA is tracking as many people as it can can.** If you are an american citizen, they may track less things about you, but track you none the less. And if you are not an american citizen, the NSA will try to track as much as they can.
 3) From the HiveTracks dicussions : Owning and developing software for an online business gets very tricky and tedious.
 
 ### And my piece of advice
